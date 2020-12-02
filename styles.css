@@ -1,0 +1,139 @@
+body {
+    padding: 7% 3%;
+    color: blue;
+
+}
+
+
+/* Title */
+.title-left {
+    padding: 0 10% 0 5%;
+}
+
+.title-head {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: 700;
+    color: #8E398E;
+    line-height: 1;
+}
+
+.title-description {
+    padding: 5% 0% 5% 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #937B92;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.title-right {
+    font-family: 'Montserrat', sans-serif;
+    color: #8E398E;
+    font-weight: 600;
+}
+
+.star-rating {
+    width: 50%;
+    border-radius: 5%;
+    text-align: center;
+    background-color: #F7F2F7;
+    padding: 3% 0;
+    margin: 3% 0;
+    position: relative;
+}
+
+.box-2 {
+    left: 4rem;
+}
+
+.box-3 {
+    left: 8rem;
+}
+
+/* Body */
+.review {
+    padding: 5% 5%;
+    text-align: left;
+}
+
+
+
+.review1 {
+    background-color: #690a69;
+    color: #F7F2F7;
+    border-radius: 25px;
+    padding: 7% 5%;
+}
+
+.review2 {
+    background-color: #690a69;
+    color: #F7F2F7;
+    border-radius: 25px;
+    padding: 7% 5%;
+    position: relative;
+    top: 30px;
+}
+
+.review3 {
+    background-color: #690a69;
+    color: #F7F2F7;
+    border-radius: 25px;
+    padding: 7% 5%;
+    position: relative;
+    top: 60px;
+}
+
+img {
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.review-head {
+    display: inline-block;
+    margin-left: 7%;
+    font-size: 1.4rem;
+    position: relative;
+    top: 20px;
+}
+
+.review-mainhead {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 600;
+}
+
+.review-subhead {
+    font-family: 'Montserrat', sans-serif;
+    color: #EE68A4;
+}
+
+.review-body {
+    color: #F7F2F7;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 5%;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+/* Media queries */
+@media (max-width: 991px) {
+    .box-2 {
+        left: 0rem;
+    }
+
+    .box-3 {
+        left: 0rem;
+    }
+
+    .review {
+        padding-left: 0;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .star-rating {
+        width: 100%;
+    }
+}
